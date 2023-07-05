@@ -13,16 +13,16 @@ from logging.handlers import RotatingFileHandler
 TG_BOT_TOKEN = "5222572158:AAGBIDiuTlPkMcVp7Bwc4q7GWRip4TfDD98"
 
 #Your API ID from my.telegram.org
-APP_ID = "3845818"
+APP_ID = 3845818
 
 #Your API Hash from my.telegram.org
 API_HASH = "95937bcf6bc0938f263fc7ad96959c6d"
 
 #Your db channel Id
-CHANNEL_ID = "-1001826837032"
+CHANNEL_ID = -1001826837032
 
 #OWNER ID
-OWNER_ID = "1443454117"
+OWNER_ID = 1443454117
 
 #Port
 PORT = "8080"
@@ -34,7 +34,7 @@ DB_NAME = "filesharexbot"
 #force sub channel id, if you want enable force sub
 FORCE_SUB_CHANNEL = "-1001298683832"
 
-TG_BOT_WORKERS = "4"
+TG_BOT_WORKERS = 4
 
 #start message
 START_MSG = "Hey! {first}\n\nI currently server for @animxt."
