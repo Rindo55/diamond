@@ -41,7 +41,7 @@ START_MSG = "Hey! {first}\n\nI am currently serving for @animxt."
 ADMINS=[1863307059, 1425489930]
 
 #Force sub message 
-FORCE_MSG = "Hey! {mention},\n\n<b>Kindly join the <a href="https://t.me/animearchivex">channel</a> & try again to get the files.</b>"
+FORCE_MSG = 'Hey! {mention},\n\n<b>Kindly join the <a href="https://t.me/animearchivex">channel</a> & try again to get the files.</b>'
 
 #set your Custom Caption here, Keep None for Disable Custom Caption
 CUSTOM_CAPTION = "@animxt"
