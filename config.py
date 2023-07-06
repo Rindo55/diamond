@@ -38,12 +38,7 @@ TG_BOT_WORKERS = 4
 
 #start message
 START_MSG = "Hey! {first}\n\nI am currently serving for @animxt."
-try:
-    ADMINS=[]
-    for x in ("1972662787").split():
-        ADMINS.append(int(x))
-except ValueError:
-        raise Exception("Your Admins list does not contain valid integers.")
+ADMINS=[1863307059, 1425489930]
 
 #Force sub message 
 FORCE_MSG = "Hey! {first},\n\n<b>Kindly join the [channel](https://t.me/animearchivex) to get the files.</b>"
@@ -59,9 +54,6 @@ DISABLE_CHANNEL_BUTTON = "True"
 
 BOT_STATS_TEXT = "<b>BOT UPTIME</b>\n{uptime}"
 USER_REPLY_TEXT = "❌Don't send me messages directly I'm only File Share bot!"
-
-ADMINS.append(OWNER_ID)
-ADMINS.append(1250450587)
 
 LOG_FILE_NAME = "filesharingbot.txt"
 
