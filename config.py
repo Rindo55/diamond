@@ -37,7 +37,7 @@ FORCE_SUB_CHANNEL = -1001298683832
 TG_BOT_WORKERS = 4
 
 #start message
-START_MSG = "Hey! {first}\n\nI currently server for @animxt."
+START_MSG = "Hey! {first}\n\nI am currently serving for @animxt."
 try:
     ADMINS=[]
     for x in ("1972662787").split():
@@ -46,10 +46,10 @@ except ValueError:
         raise Exception("Your Admins list does not contain valid integers.")
 
 #Force sub message 
-FORCE_MSG = "Hello {first}\n\n<b>You need to join in my Channel/Group to use me\n\nKindly Please join Channel</b>"
+FORCE_MSG = "Hey! {first},\n\n<b>Kindly join the [channel](https://t.me/animearchivex) to get the files.</b>"
 
 #set your Custom Caption here, Keep None for Disable Custom Caption
-CUSTOM_CAPTION = "None"
+CUSTOM_CAPTION = "@animxt"
 
 #set True if you want to prevent users from forwarding files from bot
 PROTECT_CONTENT = "True"
