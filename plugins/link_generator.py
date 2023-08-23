@@ -46,7 +46,7 @@ async def batch(client: Client, message: Message):
     xshare_urlx = f"{da_urlx}shorten"
     tgsharex = requests.get(xshare_urlx, params={"url": csharex})
     telesharex = tgsharex.text.strip() 
-    await second_message.reply_text(f"START: https://t.me/c/1441020553/{f_msg_id}\nEND:https://t.me/c/1441020553/{s_msg_id}\n\n <b>Here is your link</b>\n\n{link}\n\n<b>TN LINK</b>\n\n`{telesharex}`", quote=True, reply_markup=reply_markup)
+    await second_message.reply_text(f"START: https://t.me/c/1441020553/{f_msg_id}\nEND: https://t.me/c/1441020553/{s_msg_id}\n\n <b>Here is your link</b>\n\n{link}\n\n<b>TN LINK</b>\n\n<code>{telesharex}</code>", quote=True, reply_markup=reply_markup)
 
 
 @Bot.on_message(filters.private & filters.user(ADMINS) & filters.command('genlink'))
