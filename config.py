@@ -25,7 +25,7 @@ CHANNEL_ID = -1001441020553
 OWNER_ID = 1443454117
 
 #Port
-PORT = "8081"
+PORT = "8082"
 
 #Database 
 DB_URI = "mongodb+srv://anime:2004@cluster0.ghzkqob.mongodb.net/?retryWrites=true&w=majority" 
